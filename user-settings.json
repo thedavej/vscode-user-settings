@@ -1,0 +1,133 @@
+{
+    "diffEditor.renderSideBySide": false,
+    
+    "editor.autoIndent": true,
+    "editor.codeLens": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorWidth": 3,
+    "editor.detectIndentation": false,
+    "editor.dragAndDrop": false,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Hasklig",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300",
+    "editor.lineHeight": 0,
+    "editor.renderLineHighlight": "all",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": false,
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+      },
+    
+    "editor.quickSuggestionsDelay": 250,
+      
+    "editor.renderWhitespace": "all",
+    "editor.selectionHighlight": true,
+    "editor.smoothScrolling": false,
+    "editor.tabCompletion": true,
+
+    "editor.tokenColorCustomizations": {
+        "[Tinacious Contrast]": {
+            "comments": "#928585"
+        },
+        "[Northem Dark]": {
+            "comments": "#928585"
+        },
+    },
+
+    "editor.wordWrap": "on",
+
+    "explorer.openEditors.visible": 0,
+    
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    
+    
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    
+    "gitProjectManager.baseProjectsFolders": [
+        "~/Code",
+    ],
+    
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.rulers": [80, 120]
+    },
+    
+    "phpcs.standard": "GreynoiseLaravel",
+    
+    "php.suggest.basic": false,
+    
+    "terminal.integrated.cursorBlinking": true,
+    
+    // "theme-by-language.themes": {
+    //     "*": "Tinacious Contrast",
+    //     "xml": "Northem Dark",
+    //     "xsl": "Northem Dark",
+    // },
+    
+    "window.newWindowDimensions": "inherit",
+    "window.openFilesInNewWindow": "on",
+    "window.zoomLevel": 1,
+    
+    "workbench.colorTheme": "Night Owl",
+    
+    "workbench.colorCustomizations": {
+        "diffEditor.insertedTextBackground": "#033901",
+        "diffEditor.insertedTextBorder": "#af9999",
+        "diffEditor.removedTextBackground": "#7a0f0f",
+        "diffEditor.removedTextBorder": "#af9999",
+        
+        "editor.background": "#000000",
+
+        "[Flatland_Dark]": {
+            "sideBar.background": "#0e0d0d",
+            "activityBar.background": "#0e0d0d"
+        },
+
+        "[Night Owl]": {
+            "list.activeSelectionBackground": "#205d2b",
+            "editorSuggestWidget.selectedBackground": "#2a7a16",
+        },
+        
+        // "editorIndentGuide.activeBackground": "#1f69a5",
+        // "editorIndentGuide.background": "#666060",
+        "editorLineNumber.foreground": "#7c7a7a",
+        "editorWhitespace.foreground": "#585454",
+
+        "editor.lineHighlightBackground": "#161515",
+
+        // "editor.findMatchBackground": "#0a3f06",
+        // "editor.findMatchBorder": "#504343",
+        // "editor.findMatchHighlightBackground": "#062504",
+        // "editor.findMatchHighlightBorder": "#6e5b5b",
+        
+        // "editor.selectionBackground": "#253133",
+        // "editor.selectionHighlightBackground": "#1a2324",
+        // "editor.selectionHighlightBorder": "#554747",
+
+        // "list.activeSelectionBackground": "#205d2b",
+        
+        "statusBar.background": "#000000",
+        "statusBar.border": "#9586e9",
+        "statusBar.foreground": "#9586e9",
+        // "statusBar.debuggingBackground": "#263238",
+        // "statusBar.noFolderBackground": "#212121",
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.startupEditor": "none",
+    "gitlens.historyExplorer.location": "scm",
+    "gitlens.resultsExplorer.location": "scm",
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.enabled": false,
+}
