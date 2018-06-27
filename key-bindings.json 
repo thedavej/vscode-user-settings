@@ -167,4 +167,9 @@
         "key": "cmd+k cmd+l",
         "command": "workbench.action.problems.focus"
     },
+    {
+        "key": "shift+cmd+v",
+        "command": "pasteAndIndent.action",
+        "when": "editorTextFocus && !editorReadonly"
+    },
 ]
