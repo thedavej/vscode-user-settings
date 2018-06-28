@@ -50,7 +50,11 @@
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.currentLine.enabled": false,
+    "gitlens.historyExplorer.location": "scm",
+    "gitlens.resultsExplorer.location": "scm",
     
     "gitProjectManager.baseProjectsFolders": [
         "~/Code",
@@ -93,8 +97,12 @@
         },
 
         "[Night Owl]": {
-            "list.activeSelectionBackground": "#205d2b",
             "editorSuggestWidget.selectedBackground": "#2a7a16",
+            "list.activeSelectionBackground": "#205d2b",
+            "list.inactiveSelectionForeground": "#b1b1b1",
+            
+            "sideBarTitle.foreground": "#b1b1b1",
+            "sideBarSectionHeader.foreground": "#b1b1b1",
         },
         
         // "editorIndentGuide.activeBackground": "#1f69a5",
@@ -126,8 +134,4 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.view.alwaysShowHeaderActions": true,
     "workbench.startupEditor": "none",
-    "gitlens.historyExplorer.location": "scm",
-    "gitlens.resultsExplorer.location": "scm",
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.codeLens.enabled": false,
 }
