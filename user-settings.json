@@ -41,6 +41,7 @@
     "editor.wordWrap": "on",
 
     "explorer.openEditors.visible": 0,
+    "explorer.decorations.colors": false,
     
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -61,13 +62,16 @@
     ],
     
     "[php]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.rulers": [80, 120]
     },
     
     "phpcs.standard": "GreynoiseLaravel",
+    "phpcs.errorSeverity": 5,
     
     "php.suggest.basic": false,
+
+    "rest-client.previewResponseInUntitledDocument": true,
     
     "terminal.integrated.cursorBlinking": true,
     
