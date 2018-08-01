@@ -1,141 +1,140 @@
 {
-    "diffEditor.renderSideBySide": false,
-    
-    "editor.autoIndent": true,
-    "editor.codeLens": false,
-    "editor.cursorBlinking": "phase",
-    "editor.cursorWidth": 3,
-    "editor.detectIndentation": false,
-    "editor.dragAndDrop": false,
-    "editor.fontSize": 18,
-    "editor.fontFamily": "Hasklig",
-    "editor.fontLigatures": true,
-    "editor.fontWeight": "300",
-    "editor.lineHeight": 0,
-    "editor.renderLineHighlight": "all",
-    "editor.minimap.enabled": false,
-    "editor.occurrencesHighlight": false,
+  "better-phpunit.commandSuffix": "--stop-on-error --stop-on-failure",
+  "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
+  
+  "diffEditor.renderSideBySide": false,
+  
+  "editor.autoIndent": true,
+  "editor.codeLens": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorWidth": 3,
+  "editor.detectIndentation": false,
+  "editor.dragAndDrop": false,
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Hasklig",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "300",
+  "editor.lineHeight": 0,
+  "editor.hover.enabled": true,
+  "editor.renderLineHighlight": "all",
+  "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": false,
 
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-      },
+  "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+  
+  "editor.quickSuggestionsDelay": 250,
     
-    "editor.quickSuggestionsDelay": 250,
+  "editor.renderWhitespace": "all",
+  "editor.selectionHighlight": true,
+  "editor.smoothScrolling": false,
+  "editor.tabCompletion": true,
+
+  "editor.tokenColorCustomizations": {
+      "[Night Owl]": {
+          "comments": "#928585",
+      }
+  },
+
+  "editor.wordWrap": "on",
+
+  "emmet.triggerExpansionOnTab": true,
+  
+  "explorer.openEditors.visible": 0,
+  "explorer.decorations.colors": false,
+  
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.historyExplorer.location": "scm",
+  "gitlens.resultsExplorer.location": "scm",
+  
+  "gitProjectManager.baseProjectsFolders": [
+      "~/Code",
+  ],
+  
+  "[javascript]": {
+      "editor.tabSize": 2,
+  },
+  
+  "[json]": {
+      "editor.tabSize": 2,
+  },
+  
+  "[php]": {
+      "editor.formatOnSave": false,
+      "editor.rulers": [80, 120]
+  },
+  
+  "phpcs.errorSeverity": 5,
+  "phpcs.warningSeverity": 5,
+  "phpcs.showSources": true,
+  "phpcs.standard": "GreynoiseLaravel",
+
+  "php.suggest.basic": false,
+
+  "rest-client.previewResponseInUntitledDocument": true,
+
+  "search.location": "sidebar",
+  "search.useIgnoreFiles": false,
+  
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontWeightBold": "400",
+  
+  "window.newWindowDimensions": "inherit",
+  "window.openFilesInNewWindow": "on",
+  "window.zoomLevel": 1,
+  
+  "workbench.colorTheme": "Night Owl",
+  
+  "workbench.colorCustomizations": {
+      "diffEditor.insertedTextBackground": "#033d01",
+      "diffEditor.insertedTextBorder": "#af9999",
+      "diffEditor.removedTextBackground": "#7a0f0f",
+      "diffEditor.removedTextBorder": "#af9999",
       
-    "editor.renderWhitespace": "all",
-    "editor.selectionHighlight": true,
-    "editor.smoothScrolling": false,
-    "editor.tabCompletion": true,
+      "editor.background": "#000",
+      "editorGutter.background": "#000",
 
-    "editor.tokenColorCustomizations": {
-        "[Tinacious Contrast]": {
-            "comments": "#928585"
-        },
-        "[Northem Dark]": {
-            "comments": "#928585"
-        },
-    },
+      "[Flatland_Dark]": {
+          "sideBar.background": "#0e0d0d",
+          "activityBar.background": "#0e0d0d"
+      },
 
-    "editor.wordWrap": "on",
+      "[Night Owl]": {
+          "editorSuggestWidget.selectedBackground": "#2a7a16",
+          "list.activeSelectionBackground": "#205d2b",
+          "list.inactiveSelectionForeground": "#b1b1b1",
+          
+          "sideBarTitle.foreground": "#b1b1b1",
+          "sideBarSectionHeader.foreground": "#b1b1b1",
+      },
+      
+      "editorLineNumber.foreground": "#7c7a7a",
+      "editorWhitespace.foreground": "#585454",
 
-    "explorer.openEditors.visible": 0,
-    "explorer.decorations.colors": false,
-    
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    
-    
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.historyExplorer.location": "scm",
-    "gitlens.resultsExplorer.location": "scm",
-    
-    "gitProjectManager.baseProjectsFolders": [
-        "~/Code",
-    ],
-    
-    "[php]": {
-        "editor.formatOnSave": false,
-        "editor.rulers": [80, 120]
-    },
-    
-    "phpcs.standard": "GreynoiseLaravel",
-    "phpcs.errorSeverity": 5,
-    
-    "php.suggest.basic": false,
+      "editor.lineHighlightBackground": "#161515",
 
-    "rest-client.previewResponseInUntitledDocument": true,
-    
-    "terminal.integrated.cursorBlinking": true,
-    
-    // "theme-by-language.themes": {
-    //     "*": "Tinacious Contrast",
-    //     "xml": "Northem Dark",
-    //     "xsl": "Northem Dark",
-    // },
-    
-    "window.newWindowDimensions": "inherit",
-    "window.openFilesInNewWindow": "on",
-    "window.zoomLevel": 0,
-    
-    "workbench.colorTheme": "Night Owl",
-    
-    "workbench.colorCustomizations": {
-        "diffEditor.insertedTextBackground": "#033901",
-        "diffEditor.insertedTextBorder": "#af9999",
-        "diffEditor.removedTextBackground": "#7a0f0f",
-        "diffEditor.removedTextBorder": "#af9999",
-        
-        "editor.background": "#000000",
-
-        "[Flatland_Dark]": {
-            "sideBar.background": "#0e0d0d",
-            "activityBar.background": "#0e0d0d"
-        },
-
-        "[Night Owl]": {
-            "editorSuggestWidget.selectedBackground": "#2a7a16",
-            "list.activeSelectionBackground": "#205d2b",
-            "list.inactiveSelectionForeground": "#b1b1b1",
-            
-            "sideBarTitle.foreground": "#b1b1b1",
-            "sideBarSectionHeader.foreground": "#b1b1b1",
-        },
-        
-        // "editorIndentGuide.activeBackground": "#1f69a5",
-        // "editorIndentGuide.background": "#666060",
-        "editorLineNumber.foreground": "#7c7a7a",
-        "editorWhitespace.foreground": "#585454",
-
-        "editor.lineHighlightBackground": "#161515",
-
-        // "editor.findMatchBackground": "#0a3f06",
-        // "editor.findMatchBorder": "#504343",
-        // "editor.findMatchHighlightBackground": "#062504",
-        // "editor.findMatchHighlightBorder": "#6e5b5b",
-        
-        // "editor.selectionBackground": "#253133",
-        // "editor.selectionHighlightBackground": "#1a2324",
-        // "editor.selectionHighlightBorder": "#554747",
-
-        // "list.activeSelectionBackground": "#205d2b",
-        
-        "statusBar.background": "#000000",
-        "statusBar.border": "#9586e9",
-        "statusBar.foreground": "#9586e9",
-        // "statusBar.debuggingBackground": "#263238",
-        // "statusBar.noFolderBackground": "#212121",
-    },
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.view.alwaysShowHeaderActions": true,
-    "workbench.startupEditor": "none",
+      "statusBar.background": "#000000",
+      "statusBar.border": "#9586e9",
+      "statusBar.foreground": "#9586e9",
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.startupEditor": "none",
+  "git.confirmSync": false,
 }

@@ -172,4 +172,18 @@
         "command": "pasteAndIndent.action",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "git.stage"
+    },
 ]
