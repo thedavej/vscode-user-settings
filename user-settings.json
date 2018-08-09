@@ -1,140 +1,140 @@
 {
-  "better-phpunit.commandSuffix": "--stop-on-error --stop-on-failure",
-  "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
-  
-  "diffEditor.renderSideBySide": false,
-  
-  "editor.autoIndent": true,
-  "editor.codeLens": false,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorWidth": 3,
-  "editor.detectIndentation": false,
-  "editor.dragAndDrop": false,
-  "editor.fontSize": 18,
-  "editor.fontFamily": "Hasklig",
-  "editor.fontLigatures": true,
-  "editor.fontWeight": "300",
-  "editor.lineHeight": 0,
-  "editor.hover.enabled": true,
-  "editor.renderLineHighlight": "all",
-  "editor.minimap.enabled": false,
-  "editor.occurrencesHighlight": false,
-
-  "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true
-    },
-  
-  "editor.quickSuggestionsDelay": 250,
+    "better-phpunit.commandSuffix": "--stop-on-error --stop-on-failure",
+    "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
     
-  "editor.renderWhitespace": "all",
-  "editor.selectionHighlight": true,
-  "editor.smoothScrolling": false,
-  "editor.tabCompletion": true,
+    "diffEditor.renderSideBySide": false,
+    
+    "editor.autoIndent": true,
+    "editor.codeLens": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorWidth": 3,
+    "editor.detectIndentation": false,
+    "editor.dragAndDrop": false,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Hasklig",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300",
+    "editor.lineHeight": 0,
+    "editor.hover.enabled": true,
+    "editor.renderLineHighlight": "all",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": false,
 
-  "editor.tokenColorCustomizations": {
-      "[Night Owl]": {
-          "comments": "#928585",
-      }
-  },
-
-  "editor.wordWrap": "on",
-
-  "emmet.triggerExpansionOnTab": true,
-  
-  "explorer.openEditors.visible": 0,
-  "explorer.decorations.colors": false,
-  
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  
-  "gitlens.advanced.messages": {
-      "suppressShowKeyBindingsNotice": true
-  },
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.historyExplorer.location": "scm",
-  "gitlens.resultsExplorer.location": "scm",
-  
-  "gitProjectManager.baseProjectsFolders": [
-      "~/Code",
-  ],
-  
-  "[javascript]": {
-      "editor.tabSize": 2,
-  },
-  
-  "[json]": {
-      "editor.tabSize": 2,
-  },
-  
-  "[php]": {
-      "editor.formatOnSave": false,
-      "editor.rulers": [80, 120]
-  },
-  
-  "phpcs.errorSeverity": 5,
-  "phpcs.warningSeverity": 5,
-  "phpcs.showSources": true,
-  "phpcs.standard": "GreynoiseLaravel",
-
-  "php.suggest.basic": false,
-
-  "rest-client.previewResponseInUntitledDocument": true,
-
-  "search.location": "sidebar",
-  "search.useIgnoreFiles": false,
-  
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontWeight": "300",
-  "terminal.integrated.fontWeightBold": "400",
-  
-  "window.newWindowDimensions": "inherit",
-  "window.openFilesInNewWindow": "on",
-  "window.zoomLevel": 1,
-  
-  "workbench.colorTheme": "Night Owl",
-  
-  "workbench.colorCustomizations": {
-      "diffEditor.insertedTextBackground": "#033d01",
-      "diffEditor.insertedTextBorder": "#af9999",
-      "diffEditor.removedTextBackground": "#7a0f0f",
-      "diffEditor.removedTextBorder": "#af9999",
-      
-      "editor.background": "#000",
-      "editorGutter.background": "#000",
-
-      "[Flatland_Dark]": {
-          "sideBar.background": "#0e0d0d",
-          "activityBar.background": "#0e0d0d"
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
       },
-
-      "[Night Owl]": {
-          "editorSuggestWidget.selectedBackground": "#2a7a16",
-          "list.activeSelectionBackground": "#205d2b",
-          "list.inactiveSelectionForeground": "#b1b1b1",
-          
-          "sideBarTitle.foreground": "#b1b1b1",
-          "sideBarSectionHeader.foreground": "#b1b1b1",
-      },
+    
+    "editor.quickSuggestionsDelay": 250,
       
-      "editorLineNumber.foreground": "#7c7a7a",
-      "editorWhitespace.foreground": "#585454",
+    "editor.renderWhitespace": "all",
+    "editor.selectionHighlight": true,
+    "editor.smoothScrolling": false,
+    "editor.tabCompletion": true,
 
-      "editor.lineHighlightBackground": "#161515",
+    "editor.tokenColorCustomizations": {
+        "[Night Owl]": {
+            "comments": "#928585",
+        }
+    },
 
-      "statusBar.background": "#000000",
-      "statusBar.border": "#9586e9",
-      "statusBar.foreground": "#9586e9",
-  },
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.view.alwaysShowHeaderActions": true,
-  "workbench.startupEditor": "none",
-  "git.confirmSync": false,
+    "editor.wordWrap": "on",
+
+    "emmet.triggerExpansionOnTab": true,
+    
+    "explorer.openEditors.visible": 0,
+    "explorer.decorations.colors": false,
+    
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.historyExplorer.location": "scm",
+    "gitlens.resultsExplorer.location": "scm",
+    
+    "gitProjectManager.baseProjectsFolders": [
+        "~/Code",
+    ],
+    
+    "[javascript]": {
+        "editor.tabSize": 2,
+    },
+    
+    "[json]": {
+        "editor.tabSize": 2,
+    },
+    
+    "[php]": {
+        "editor.formatOnSave": false,
+        "editor.rulers": [80, 120]
+    },
+    
+    "phpcs.errorSeverity": 5,
+    "phpcs.warningSeverity": 5,
+    "phpcs.showSources": true,
+    "phpcs.standard": "GreynoiseLaravel",
+
+    "php.suggest.basic": false,
+
+    "rest-client.previewResponseInUntitledDocument": true,
+
+    "search.location": "sidebar",
+    "search.useIgnoreFiles": false,
+    
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.fontWeightBold": "400",
+    
+    "window.newWindowDimensions": "inherit",
+    "window.openFilesInNewWindow": "on",
+    "window.zoomLevel": 0,
+    
+    "workbench.colorTheme": "Night Owl",
+    
+    "workbench.colorCustomizations": {
+        "diffEditor.insertedTextBackground": "#033d01",
+        "diffEditor.insertedTextBorder": "#af9999",
+        "diffEditor.removedTextBackground": "#7a0f0f",
+        "diffEditor.removedTextBorder": "#af9999",
+        
+        "editor.background": "#000",
+        "editorGutter.background": "#000",
+
+        "[Flatland_Dark]": {
+            "sideBar.background": "#0e0d0d",
+            "activityBar.background": "#0e0d0d"
+        },
+
+        "[Night Owl]": {
+            "editorSuggestWidget.selectedBackground": "#2a7a16",
+            "list.activeSelectionBackground": "#205d2b",
+            "list.inactiveSelectionForeground": "#b1b1b1",
+            
+            "sideBarTitle.foreground": "#b1b1b1",
+            "sideBarSectionHeader.foreground": "#b1b1b1",
+        },
+        
+        "editorLineNumber.foreground": "#7c7a7a",
+        "editorWhitespace.foreground": "#585454",
+
+        "editor.lineHighlightBackground": "#161515",
+
+        "statusBar.background": "#000000",
+        "statusBar.border": "#9586e9",
+        "statusBar.foreground": "#9586e9",
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.startupEditor": "none",
+    "git.confirmSync": false,
 }
