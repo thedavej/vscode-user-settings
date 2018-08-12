@@ -26,7 +26,7 @@
         "strings": true
       },
     
-    "editor.quickSuggestionsDelay": 250,
+    "editor.quickSuggestionsDelay": 150,
       
     "editor.renderWhitespace": "all",
     "editor.selectionHighlight": true,
@@ -34,6 +34,8 @@
     "editor.tabCompletion": true,
 
     "editor.tokenColorCustomizations": {
+        "comments": "#928585",
+        
         "[Night Owl]": {
             "comments": "#928585",
         }
@@ -97,7 +99,7 @@
     "window.openFilesInNewWindow": "on",
     "window.zoomLevel": 0,
     
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Hyper Term Black",
     
     "workbench.colorCustomizations": {
         "diffEditor.insertedTextBackground": "#033d01",

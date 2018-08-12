@@ -21,6 +21,7 @@ code --install-extension formulahendry.auto-complete-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension gerane.Theme-FlatlandDark
 code --install-extension heberalmeida.php-snippets
+code --install-extension hsnazar.hyper-term-theme
 code --install-extension humao.rest-client
 code --install-extension IBM.output-colorizer
 code --install-extension IBM.XMLLanguageSupport
