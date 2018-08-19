@@ -2,10 +2,11 @@
     "better-phpunit.commandSuffix": "--stop-on-error --stop-on-failure",
     "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
     
+    "breadcrumbs.enabled": true,
+    
     "diffEditor.renderSideBySide": false,
     
     "editor.autoIndent": true,
-    "editor.codeLens": false,
     "editor.cursorBlinking": "phase",
     "editor.cursorWidth": 3,
     "editor.detectIndentation": false,
@@ -14,52 +15,35 @@
     "editor.fontFamily": "Hasklig",
     "editor.fontLigatures": true,
     "editor.fontWeight": "300",
-    "editor.lineHeight": 0,
     "editor.hover.enabled": true,
-    "editor.renderLineHighlight": "all",
+    "editor.lineHeight": 0,
     "editor.minimap.enabled": false,
     "editor.occurrencesHighlight": false,
-
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
         "strings": true
-      },
-    
-    "editor.quickSuggestionsDelay": 150,
-      
+    },
+    "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "all",
     "editor.selectionHighlight": true,
     "editor.smoothScrolling": false,
     "editor.tabCompletion": true,
-
     "editor.tokenColorCustomizations": {
         "comments": "#928585",
-        
-        "[Night Owl]": {
-            "comments": "#928585",
-        }
     },
-
     "editor.wordWrap": "on",
 
     "emmet.triggerExpansionOnTab": true,
     
     "explorer.openEditors.visible": 0,
-    "explorer.decorations.colors": false,
+    "explorer.decorations.colors": true,
+    "explorer.decorations.badges": true,
     
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.historyExplorer.location": "scm",
-    "gitlens.resultsExplorer.location": "scm",
+
+    "git.confirmSync": false,
     
     "gitProjectManager.baseProjectsFolders": [
         "~/Code",
@@ -99,11 +83,13 @@
     "window.openFilesInNewWindow": "on",
     "window.zoomLevel": 0,
     
-    "workbench.colorTheme": "Hyper Term Black",
-    
     "workbench.colorCustomizations": {
-        "diffEditor.insertedTextBackground": "#033d01",
-        "diffEditor.insertedTextBorder": "#af9999",
+        "[Material Dark Theme]": {
+            "editor.selectionBackground": "#363636",
+        },
+        
+        "diffEditor.insertedTextBackground": "#022b00",
+        // "diffEditor.insertedTextBorder": "#af9999",
         "diffEditor.removedTextBackground": "#7a0f0f",
         "diffEditor.removedTextBorder": "#af9999",
         
@@ -116,10 +102,14 @@
         },
 
         "[Night Owl]": {
+            "activityBar.background": "#131313",
+            "activityBar.border": "#3b3b3b",
             "editorSuggestWidget.selectedBackground": "#2a7a16",
             "list.activeSelectionBackground": "#205d2b",
             "list.inactiveSelectionForeground": "#b1b1b1",
-            
+            "sideBar.background": "#131313",
+            "sideBar.border": "#3b3b3b",
+            "sideBar.foreground": "#8BADC1",
             "sideBarTitle.foreground": "#b1b1b1",
             "sideBarSectionHeader.foreground": "#b1b1b1",
         },
@@ -130,13 +120,14 @@
         "editor.lineHighlightBackground": "#161515",
 
         "statusBar.background": "#000000",
-        "statusBar.border": "#9586e9",
-        "statusBar.foreground": "#9586e9",
+        "statusBar.border": "#d4d4d4",
+        "statusBar.foreground": "#d4d4d4",
     },
-    "workbench.editor.enablePreview": false,
+    
+    "workbench.editor.enablePreview": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.iconTheme": "vscode-icons",
     "workbench.view.alwaysShowHeaderActions": true,
-    "workbench.startupEditor": "none",
-    "git.confirmSync": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "vscode-great-icons",
 }
