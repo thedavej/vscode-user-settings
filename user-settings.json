@@ -16,6 +16,7 @@
     "editor.fontLigatures": true,
     "editor.fontWeight": "300",
     "editor.hover.enabled": true,
+    "editor.largeFileOptimizations": false,
     "editor.lineHeight": 0,
     "editor.minimap.enabled": false,
     "editor.occurrencesHighlight": false,
@@ -24,16 +25,23 @@
         "comments": false,
         "strings": true
     },
+    "editor.quickSuggestionsDelay": 100,
     "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "all",
     "editor.selectionHighlight": true,
     "editor.smoothScrolling": false,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.tabCompletion": true,
     "editor.tokenColorCustomizations": {
         "comments": "#928585",
     },
     "editor.wordWrap": "on",
 
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php",
+    ],
     "emmet.triggerExpansionOnTab": true,
     
     "explorer.openEditors.visible": 0,
@@ -44,6 +52,8 @@
     "files.trimFinalNewlines": true,
 
     "git.confirmSync": false,
+    
+    "gitlens.currentLine.enabled": false,
     
     "gitProjectManager.baseProjectsFolders": [
         "~/Code",
@@ -69,6 +79,8 @@
 
     "php.suggest.basic": false,
 
+    "python.pythonPath": "python3",
+    
     "rest-client.previewResponseInUntitledDocument": true,
 
     "search.location": "sidebar",
@@ -88,7 +100,7 @@
             "editor.selectionBackground": "#363636",
         },
         
-        "diffEditor.insertedTextBackground": "#022b00",
+        "diffEditor.insertedTextBackground": "#033b00",
         // "diffEditor.insertedTextBorder": "#af9999",
         "diffEditor.removedTextBackground": "#7a0f0f",
         "diffEditor.removedTextBorder": "#af9999",
@@ -105,7 +117,8 @@
             "activityBar.background": "#131313",
             "activityBar.border": "#3b3b3b",
             "editorSuggestWidget.selectedBackground": "#2a7a16",
-            "list.activeSelectionBackground": "#205d2b",
+            "gitDecoration.ignoredResourceForeground": "#878887fa",
+            "list.activeSelectionBackground": "#0c3012",
             "list.inactiveSelectionForeground": "#b1b1b1",
             "sideBar.background": "#131313",
             "sideBar.border": "#3b3b3b",
@@ -119,9 +132,9 @@
 
         "editor.lineHighlightBackground": "#161515",
 
-        "statusBar.background": "#000000",
-        "statusBar.border": "#d4d4d4",
-        "statusBar.foreground": "#d4d4d4",
+        "statusBar.background": "#131313",
+        "statusBar.border": "#3b3b3b",
+        "statusBar.foreground": "#8BADC1",
     },
     
     "workbench.editor.enablePreview": true,
