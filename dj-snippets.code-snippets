@@ -21,13 +21,14 @@
         "prefix": "zdd",
         "body": [
             "\\Debug::dd(array(",
+            "\t'location' => __FILE__ . ':' . __LINE__,"
             "\t'$1' => $$1",
             "));"
         ],
         "description": "Dump and Die using Debug class"
     },
     "Laravel Dump and Die": {
-        "scope": "php",
+        "scope": "php, blade",
         "prefix": "ldd",
         "body": [
             "dd([",
