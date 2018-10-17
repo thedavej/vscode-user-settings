@@ -20,6 +20,7 @@
     "editor.lineHeight": 0,
     "editor.minimap.enabled": false,
     "editor.occurrencesHighlight": false,
+    "editor.parameterHints.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
@@ -53,6 +54,7 @@
 
     "git.confirmSync": false,
     
+    "gitlens.codeLens.enabled": false,,
     "gitlens.currentLine.enabled": false,
     
     "gitProjectManager.baseProjectsFolders": [
