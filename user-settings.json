@@ -139,7 +139,7 @@
         "statusBar.foreground": "#8BADC1",
     },
     
-    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.view.alwaysShowHeaderActions": true,
     "workbench.startupEditor": "newUntitledFile",
