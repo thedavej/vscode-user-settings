@@ -64,7 +64,12 @@
     "[javascript]": {
         "editor.tabSize": 2,
     },
-    
+
+    "jira-plugin.baseUrl": "https://zbrt.atl.zillow.net/",
+    "jira-plugin.gitIntegration": true,
+    "jira-plugin.username": "davej",
+    "jira-plugin.workingProject": "NC",
+
     "[json]": {
         "editor.tabSize": 2,
     },
