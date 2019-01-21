@@ -103,22 +103,13 @@
     "window.zoomLevel": 0,
     
     "workbench.colorCustomizations": {
-        "[Material Dark Theme]": {
-            "editor.selectionBackground": "#363636",
-        },
-        
         "diffEditor.insertedTextBackground": "#033b00",
         // "diffEditor.insertedTextBorder": "#af9999",
         "diffEditor.removedTextBackground": "#7a0f0f",
-        "diffEditor.removedTextBorder": "#af9999",
+        // "diffEditor.removedTextBorder": "#af9999",
         
         "editor.background": "#000",
         "editorGutter.background": "#000",
-
-        "[Flatland_Dark]": {
-            "sideBar.background": "#0e0d0d",
-            "activityBar.background": "#0e0d0d"
-        },
 
         "[Night Owl]": {
             "activityBar.background": "#131313",
@@ -144,10 +135,12 @@
         "statusBar.foreground": "#8BADC1",
     },
     
+    "workbench.colorTheme": "Night Owl",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.view.alwaysShowHeaderActions": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Night Owl",
     "workbench.iconTheme": "vscode-great-icons",
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.view.alwaysShowHeaderActions": true,
 }
