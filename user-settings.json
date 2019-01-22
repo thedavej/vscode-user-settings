@@ -33,10 +33,7 @@
     "editor.smoothScrolling": false,
     "editor.snippetSuggestions": "top",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.tabCompletion": true,
-    "editor.tokenColorCustomizations": {
-        "comments": "#928585",
-    },
+    "editor.tabCompletion": "on",
     "editor.wordWrap": "on",
 
     "emmet.excludeLanguages": [
@@ -54,7 +51,7 @@
 
     "git.confirmSync": false,
     
-    "gitlens.codeLens.enabled": false,,
+    "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
     
     "gitProjectManager.baseProjectsFolders": [
@@ -102,40 +99,6 @@
     "window.openFilesInNewWindow": "on",
     "window.zoomLevel": 0,
     
-    "workbench.colorCustomizations": {
-        "diffEditor.insertedTextBackground": "#033b00",
-        // "diffEditor.insertedTextBorder": "#af9999",
-        "diffEditor.removedTextBackground": "#7a0f0f",
-        // "diffEditor.removedTextBorder": "#af9999",
-        
-        "editor.background": "#000",
-        "editorGutter.background": "#000",
-
-        "[Night Owl]": {
-            "activityBar.background": "#131313",
-            "activityBar.border": "#3b3b3b",
-            "editorSuggestWidget.selectedBackground": "#2a7a16",
-            "gitDecoration.ignoredResourceForeground": "#878887fa",
-            "list.activeSelectionBackground": "#0c3012",
-            "list.inactiveSelectionForeground": "#b1b1b1",
-            "sideBar.background": "#131313",
-            "sideBar.border": "#3b3b3b",
-            "sideBar.foreground": "#8BADC1",
-            "sideBarTitle.foreground": "#b1b1b1",
-            "sideBarSectionHeader.foreground": "#b1b1b1",
-        },
-        
-        "editorLineNumber.foreground": "#7c7a7a",
-        "editorWhitespace.foreground": "#585454",
-
-        "editor.lineHighlightBackground": "#161515",
-
-        "statusBar.background": "#131313",
-        "statusBar.border": "#3b3b3b",
-        "statusBar.foreground": "#8BADC1",
-    },
-    
-    "workbench.colorTheme": "Night Owl",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.iconTheme": "vscode-great-icons",
@@ -143,4 +106,5 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.feedback.visible": false,
     "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.colorTheme": "Night Owl Black",
 }
