@@ -54,5 +54,13 @@
             " */",
             "",
         ]
-    }
+    },
+    "Laravel Log with context": {
+        "scope": "php, blade",
+        "prefix": "lg",
+        "body": [
+            "logger(get_class(\\$this) . ':' . __LINE__ . ' ${1:message}');"
+        ],
+        "description": "Log to the default logger with some context"
+    },
 }
