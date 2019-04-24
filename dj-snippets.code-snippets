@@ -22,7 +22,7 @@
         "body": [
             "syslog(LOG_INFO, var_export(array(",
             "\t'location' => __FILE__ . ':' . __LINE__,",
-            "\t'$1' => $$1,",
+            "\t'$1' => $$1,$2",
             "), true));"
         ],
         "description": "Writes an info message to syslog"
@@ -33,7 +33,7 @@
         "body": [
             "\\Debug::dd(array(",
             "\t'location' => __FILE__ . ':' . __LINE__,"
-            "\t'$1' => $$1",
+            "\t'$1' => $$1,$2",
             "));"
         ],
         "description": "Dump and Die using Debug class"
@@ -44,7 +44,7 @@
         "body": [
             "dd([",
             "\t'location' => __FILE__ . ':' . __LINE__,"
-            "\t'$1' => $$1,",
+            "\t'$1' => $$1,$2",
             "]);"
         ],
         "description": "Dump and Die using Debug class"
@@ -55,10 +55,10 @@
         "body": [
             "logger(var_export([",
             "\t'location' => __FILE__ . ':' . __LINE__,"
-            "\t'$1' => $$1,",
+            "\t'$1' => $$1,$2",
             "], true));"
         ],
-        "description": "Dump and Die using Debug class"
+        "description": "Logs to the default app logger as a DEBUG message"
     },
     "PHP File Doc Comment": {
         "scope": "php",
@@ -72,7 +72,7 @@
             " * @package $2",
             " * @author  Dave Johnson <davej@zillowgroup.com>",
             " * @license http://www.newhomefeed.com Internal Use Only",
-            " * @link    http://www.newhomefeed..com",
+            " * @link    http://www.newhomefeed.com",
             " */",
             "",
         ]
