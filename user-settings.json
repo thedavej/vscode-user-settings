@@ -3,6 +3,8 @@
     "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
     
     "breadcrumbs.enabled": true,
+
+    "csv-preview.resizeColumns": "all",
     
     "diffEditor.renderSideBySide": false,
     
@@ -14,8 +16,11 @@
     "editor.fontSize": 18,
     "editor.fontFamily": "Hasklig",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "300",
+    "editor.fontWeight": "400",
+    "editor.gotoLocation.multiple": "goto",
     "editor.hover.enabled": true,
+    "editor.hover.delay": 750,
+    "editor.hover.sticky": true,
     "editor.largeFileOptimizations": false,
     "editor.lineHeight": 0,
     "editor.minimap.enabled": false,
@@ -60,6 +65,8 @@
     
     "[javascript]": {
         "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
     },
 
     "[json]": {
@@ -101,5 +108,13 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.feedback.visible": false,
     "workbench.view.alwaysShowHeaderActions": true,
+    "csv-preview.theme": "highcontrast",
     "workbench.colorTheme": "Night Owl Black",
+    "atlascode.jira.workingSite": {
+        "baseUrlSuffix": "atlassian.net"
+    },
+    "yaml.schemas": {
+        "file:///Users/davej/.vscode/extensions/atlassian.atlascode-1.3.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "sync.gist": "695b21c7ffc15661afc24c0aedbf3178"
 }
