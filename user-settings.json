@@ -5,7 +5,8 @@
     "breadcrumbs.enabled": true,
 
     "csv-preview.resizeColumns": "all",
-    
+    "csv-preview.theme": "highcontrast",
+
     "diffEditor.renderSideBySide": false,
     
     "editor.autoIndent": true,
@@ -65,8 +66,8 @@
     
     "[javascript]": {
         "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
+        // "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.formatOnSave": true
     },
 
     "[json]": {
@@ -91,6 +92,8 @@
 
     "search.location": "sidebar",
     "search.useIgnoreFiles": false,
+
+    "sync.gist": "695b21c7ffc15661afc24c0aedbf3178",
     
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontSize": 16,
@@ -101,20 +104,18 @@
     "window.openFilesInNewWindow": "on",
     "window.zoomLevel": 0,
     
+    "workbench.colorTheme": "Night Owl Black",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.feedback.visible": false,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 12,
+    
     "workbench.view.alwaysShowHeaderActions": true,
-    "csv-preview.theme": "highcontrast",
-    "workbench.colorTheme": "Night Owl Black",
-    "atlascode.jira.workingSite": {
-        "baseUrlSuffix": "atlassian.net"
-    },
+    
     "yaml.schemas": {
         "file:///Users/davej/.vscode/extensions/atlassian.atlascode-1.3.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
-    "sync.gist": "695b21c7ffc15661afc24c0aedbf3178"
+    }
 }
