@@ -1,129 +1,130 @@
 {
-    "better-phpunit.commandSuffix": "--stop-on-error --stop-on-failure",
-    "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
+  "better-phpunit.commandSuffix": "--stop-on-error --stop-on-failure",
+  "better-phpunit.phpunitBinary": "vendor/bin/phpunit",
+
+  "breadcrumbs.enabled": true,
+
+  "csv-preview.resizeColumns": "all",
+  "csv-preview.theme": "highcontrast",
+
+  "diffEditor.renderSideBySide": false,
+
+  "editor.autoClosingBrackets": "always",
+  "editor.autoIndent": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorWidth": 3,
+  "editor.detectIndentation": true,
+  "editor.dragAndDrop": false,
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Hasklig",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.gotoLocation.multiple": "goto",
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 750,
+  "editor.hover.sticky": true,
+  "editor.largeFileOptimizations": false,
+  "editor.lineHeight": 0,
+  "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": false,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.quickSuggestionsDelay": 100,
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "all",
+  "editor.selectionHighlight": true,
+  "editor.smoothScrolling": false,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+
+  "emmet.excludeLanguages": ["markdown", "php"],
+  "emmet.triggerExpansionOnTab": true,
+
+  "explorer.openEditors.visible": 0,
+  "explorer.decorations.colors": true,
+  "explorer.decorations.badges": true,
+
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  "git.confirmSync": false,
+
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+
+  "gitProjectManager.baseProjectsFolders": ["~/Code"],
+
+  "[graphql]": {
+    "editor.tabSize": 2
+  },
+
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   
-    "breadcrumbs.enabled": true,
-  
-    "csv-preview.resizeColumns": "all",
-    "csv-preview.theme": "highcontrast",
-  
-    "diffEditor.renderSideBySide": false,
-  
-    "editor.autoIndent": true,
-    "editor.cursorBlinking": "phase",
-    "editor.cursorWidth": 3,
-    "editor.detectIndentation": true,
-    "editor.dragAndDrop": false,
-    "editor.fontSize": 18,
-    "editor.fontFamily": "Hasklig",
-    "editor.fontLigatures": true,
-    "editor.fontWeight": "400",
-    "editor.gotoLocation.multiple": "goto",
-    "editor.hover.enabled": true,
-    "editor.hover.delay": 750,
-    "editor.hover.sticky": true,
-    "editor.largeFileOptimizations": false,
-    "editor.lineHeight": 0,
-    "editor.minimap.enabled": false,
-    "editor.occurrencesHighlight": false,
-    "editor.parameterHints.enabled": false,
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true
-    },
-    "editor.quickSuggestionsDelay": 100,
-    "editor.renderLineHighlight": "all",
-    "editor.renderWhitespace": "all",
-    "editor.selectionHighlight": true,
-    "editor.smoothScrolling": false,
-    "editor.snippetSuggestions": "top",
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.tabCompletion": "on",
-    "editor.wordWrap": "on",
-  
-    "emmet.excludeLanguages": ["markdown", "php"],
-    "emmet.triggerExpansionOnTab": true,
-  
-    "explorer.openEditors.visible": 0,
-    "explorer.decorations.colors": true,
-    "explorer.decorations.badges": true,
-  
-    "files.autoSave": "onFocusChange",
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-  
-    "git.confirmSync": false,
-  
-    "gitlens.codeLens.enabled": false,
-    "gitlens.currentLine.enabled": false,
-  
-    "gitProjectManager.baseProjectsFolders": ["~/Code"],
-  
-    "[graphql]": {
-      "editor.tabSize": 2
-    },
-  
-    "[javascript]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-  
-    "[javascriptreact]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    
-    "[json]": {
-      "editor.tabSize": 2
-    },
-  
-    "[jsonc]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-  
-    "[php]": {
-      "editor.formatOnSave": false,
-      "editor.rulers": [80, 120]
-    },
-  
-    "phpcs.errorSeverity": 6,
-    "phpcs.warningSeverity": 6,
-    "phpcs.showSources": true,
-    "phpcs.standard": "GreynoiseLaravel",
-  
-    "php.suggest.basic": false,
-  
-    "python.pythonPath": "python3",
-  
-    "rest-client.previewResponseInUntitledDocument": true,
-  
-    "search.location": "sidebar",
-    "search.useIgnoreFiles": false,
-  
-    "sync.gist": "695b21c7ffc15661afc24c0aedbf3178",
-  
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontWeight": "300",
-    "terminal.integrated.fontWeightBold": "400",
-  
-    "window.newWindowDimensions": "inherit",
-    "window.openFilesInNewWindow": "on",
-    "window.zoomLevel": 0,
-  
-    "workbench.colorTheme": "Night Owl Black",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.iconTheme": "vscode-great-icons",
-    "workbench.settings.editor": "json",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.tree.indent": 12,
-  
-    "workbench.view.alwaysShowHeaderActions": true,
-    "vsicons.dontShowNewVersionMessage": true
-  }
+  "[json]": {
+    "editor.tabSize": 2
+  },
+
+  "[jsonc]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "[php]": {
+    "editor.formatOnSave": false,
+    "editor.rulers": [80, 120]
+  },
+
+  "phpcs.errorSeverity": 6,
+  "phpcs.warningSeverity": 6,
+  "phpcs.showSources": true,
+  "phpcs.standard": "GreynoiseLaravel",
+
+  "php.suggest.basic": false,
+
+  "python.pythonPath": "python3",
+
+  "rest-client.previewResponseInUntitledDocument": true,
+
+  "search.location": "sidebar",
+  "search.useIgnoreFiles": false,
+
+  "sync.gist": "695b21c7ffc15661afc24c0aedbf3178",
+
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontWeightBold": "400",
+
+  "window.newWindowDimensions": "inherit",
+  "window.openFilesInNewWindow": "on",
+  "window.zoomLevel": 0,
+
+  "workbench.colorTheme": "Night Owl Black",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 12,
+
+  "workbench.view.alwaysShowHeaderActions": true,
+  "vsicons.dontShowNewVersionMessage": true
+}
