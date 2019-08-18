@@ -85,4 +85,13 @@
         ],
         "description": "Log to the default logger with some context"
     },
+    "Console log with eslint rule disable": {
+        "scope": "javascript, javascriptreact",
+        "prefix": "cll",
+        "body": [
+            "// eslint-disable-next-line no-console",
+            "console.log(\"$1: \", $1);"
+        ],
+        "description": "Log to console and disable eslint rule"
+    }
 }
