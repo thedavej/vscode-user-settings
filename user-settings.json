@@ -10,6 +10,7 @@
   "diffEditor.renderSideBySide": false,
 
   "editor.autoClosingBrackets": "always",
+  "editor.autoClosingOvertype": "always",
   "editor.autoIndent": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 3,
