@@ -9,7 +9,7 @@
 
   "diffEditor.renderSideBySide": false,
 
-  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingBrackets": "beforeWhitespace",
   "editor.autoClosingOvertype": "always",
   "editor.autoIndent": true,
   "editor.cursorBlinking": "phase",
@@ -89,11 +89,15 @@
 
   "[php]": {
     "editor.formatOnSave": false,
-    "editor.rulers": [80, 120]
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
 
-  "phpcs.errorSeverity": 6,
-  "phpcs.warningSeverity": 6,
+  "phpcs.errorSeverity": 5,
+  "phpcs.warningSeverity": 5,
   "phpcs.showSources": true,
   "phpcs.standard": "GreynoiseLaravel",
 
@@ -120,12 +124,13 @@
   "workbench.colorTheme": "Night Owl Black",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.tree.indent": 12,
-
   "workbench.view.alwaysShowHeaderActions": true,
+
   "vsicons.dontShowNewVersionMessage": true
 }
