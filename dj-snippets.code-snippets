@@ -31,10 +31,10 @@
         "scope": "php",
         "prefix": "zdd",
         "body": [
-            "\\Debug::dd(array(",
+            "\\Debug::dde([",
             "\t'location' => __FILE__ . ':' . __LINE__,"
             "\t'$1' => $$1,$2",
-            "));"
+            "]);"
         ],
         "description": "Dump and Die using Debug class"
     },
@@ -45,6 +45,18 @@
             "dd([",
             "\t'location' => __FILE__ . ':' . __LINE__,"
             "\t'$1' => $$1,$2",
+            "]);"
+        ],
+        "description": "Dump and Die using Debug class"
+    },
+    "Laravel Dump Model Validation Errors and Die": {
+        "scope": "php, blade",
+        "prefix": "lde",
+        "body": [
+            "dd([",
+            "\t'location' => __FILE__ . ':' . __LINE__,",
+            "\t'isValid'  => $$this->model->isValid(),",
+            "\t'errors'   => $$this->model->getErrors(),$1",
             "]);"
         ],
         "description": "Dump and Die using Debug class"
@@ -93,5 +105,13 @@
             "console.log(\"$1: \", $1);"
         ],
         "description": "Log to console and disable eslint rule"
+    },
+    "JSON Stringify data": {
+        "scope": "javascript, javascriptreact",
+        "prefix": "jsp",
+        "body": [
+            "<pre>{JSON.stringify($1, null, 2)}</pre>"
+        ],
+        "description": "Stringify JSON to pre tag"
     }
 }
