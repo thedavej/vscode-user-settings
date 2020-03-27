@@ -32,7 +32,7 @@
         "prefix": "zdd",
         "body": [
             "\\Debug::dde([",
-            "\t'location' => __FILE__ . ':' . __LINE__,"
+            "\t'location' => __FILE__ . ':' . __LINE__,",
             "\t'$1' => $$1,$2",
             "]);"
         ],
@@ -43,7 +43,7 @@
         "prefix": "ldd",
         "body": [
             "dd([",
-            "\t'location' => __FILE__ . ':' . __LINE__,"
+            "\t'location' => __FILE__ . ':' . __LINE__,",
             "\t'$1' => $$1,$2",
             "]);"
         ],
@@ -66,7 +66,7 @@
         "prefix": "lll",
         "body": [
             "logger(var_export([",
-            "\t'location' => __FILE__ . ':' . __LINE__,"
+            "\t'location' => __FILE__ . ':' . __LINE__,",
             "\t'$1' => $$1,$2",
             "], true));"
         ],
