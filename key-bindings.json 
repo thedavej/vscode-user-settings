@@ -3,7 +3,6 @@
     /*
      * Editor Groups
      */
-    
     {
         "key": "alt+1",
         "command": "workbench.action.focusFirstEditorGroup"
@@ -16,11 +15,9 @@
         "key": "alt+3",
         "command": "workbench.action.focusThirdEditorGroup"
     },
-
     /*
-    * Open Editor Selection
-    */
-    
+     * Open Editor Selection
+     */
     {
         "key": "cmd+1",
         "command": "workbench.action.openEditorAtIndex1"
@@ -57,11 +54,9 @@
         "key": "cmd+9",
         "command": "workbench.action.openEditorAtIndex9"
     },
-
     /*
-    * Go to symbol
-    */
-    
+     * Go to symbol
+     */
     {
         "key": "cmd+r",
         "command": "workbench.action.gotoSymbol"
@@ -70,30 +65,26 @@
         "key": "shift+cmd+o",
         "command": "-workbench.action.gotoSymbol"
     },
-
     /*
      * Paste And Indent
      */
-    
     {
         "key": "shift+cmd+v",
         "command": "pasteAndIndent.action"
     },
-    
     /*
      * Navigate Find Matches
      */
-    
-     {
-         "key": "shift+alt+cmd+g",
-         "command": "editor.action.previousSelectionMatchFindAction",
-         "when": "editorFocus"
-     },
-     {
-         "key": "shift+cmd+f3",
-         "command": "-editor.action.previousSelectionMatchFindAction",
-         "when": "editorFocus"
-     },
+    {
+        "key": "shift+alt+cmd+g",
+        "command": "editor.action.previousSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+f3",
+        "command": "-editor.action.previousSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
     {
         "key": "alt+cmd+g",
         "command": "editor.action.nextSelectionMatchFindAction",
@@ -104,11 +95,9 @@
         "command": "-editor.action.nextSelectionMatchFindAction",
         "when": "editorFocus"
     },
-
     /*
      * Diff commands
      */
-    
     {
         "key": "alt+f4",
         "command": "editor.action.dirtydiff.next",
@@ -127,11 +116,9 @@
         "key": "alt+cmd+left",
         "command": "workbench.action.compareEditor.previousChange"
     },
-
     /*
      * Editor navigation
      */
-    
     {
         "key": "home",
         "command": "cursorTop",
@@ -142,17 +129,9 @@
         "command": "cursorBottom",
         "when": "editorTextFocus"
     },
-    
-    
-    {
-        "key": "cmd+k cmd+m",
-        "command": "-workbench.extensions.action.showRecommendedKeymapExtensions"
-    },
-
     /*
      * Pretty JSON
      */
-    
     {
         "key": "ctrl+cmd+j",
         "command": "extension.prettyJSON"
@@ -161,11 +140,9 @@
         "key": "alt+cmd+m",
         "command": "-extension.prettyJSON"
     },
-
     /*
      * Reference Search
      */
-
     {
         "key": "shift+cmd+r",
         "command": "editor.action.referenceSearch.trigger",
@@ -176,16 +153,9 @@
         "command": "-editor.action.referenceSearch.trigger",
         "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     },
-    
     /*
      * Collapse Items
      */
-    
-    {
-        "key": "cmd+k cmd+c",
-        "command": "workbench.files.action.collapseExplorerFolders",
-        "when": "explorerViewletVisible"
-    },
     {
         "key": "cmd+k cmd+c",
         "command": "-editor.action.addCommentLine",
@@ -196,65 +166,64 @@
         "command": "search.action.collapseSearchResults",
         "when": "searchViewletVisible"
     },
-    
     /*
      * Panel
      */
-    
     {
-        "key": "cmd+k cmd+j",
-        "command": "workbench.action.positionPanelRight"
+        "key": "cmd+k cmd+n",
+        "command": "workbench.action.positionPanelBottom",
     },
     {
-        "key": "cmd+k shift+cmd+j",
-        "command": "workbench.action.positionPanelBottom",
+        "key": "cmd+k cmd+j",
+        "command": "workbench.action.positionPanelRight",
     },
     {
         "key": "cmd+k cmd+m",
         "command": "workbench.action.toggleMaximizedPanel"
     },
     {
-        "key": "cmd+k cmd+l",
-        "command": "workbench.action.problems.focus"
+        "key": "cmd+k cmd+m",
+        "command": "-workbench.extensions.action.showRecommendedKeymapExtensions"
     },
-
     /*
      * Clear
      */
-    
     {
         "key": "cmd+k cmd+k",
         "command": "workbench.action.terminal.clear",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "cmd+k",
-        "command": "-workbench.action.terminal.clear",
-        "when": "terminalFocus"
+        "when": "activePanel == workbench.panel.terminal"
     },
     {
         "key": "cmd+k cmd+k",
         "command": "workbench.debug.panel.action.clearReplAction",
-        "when": "debugFocus"
+        "when": "activePanel == workbench.panel.repl"
     },
-    
+    /*
+     * Focus
+     */
+    {
+        "key": "cmd+k cmd+o",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "cmd+e cmd+e",
+        "command": "workbench.action.focusActiveEditorGroup"
+    }
     /*
      * Git
      */
-    
     {
         "key": "alt+cmd+up",
-        "command": "git.stage"
+        "command": "git.stage",
     },
     {
         "key": "cmd+k cmd+r",
         "command": "-workbench.action.keybindingsReference"
     },
-
     /*
      * Editor scrolling
      */
-    
     {
         "key": "ctrl+down",
         "command": "scrollLineDown",
@@ -275,11 +244,9 @@
         "command": "-scrollLineUp",
         "when": "textInputFocus"
     },
-
     /*
      * Editor Scrolling with cursor move
      */
-    
     {
         "key": "ctrl+alt+down",
         "command": "onelinescroll.scrollDown"
@@ -296,16 +263,13 @@
         "key": "alt+p",
         "command": "-onelinescroll.scrollUp"
     },
-    
     /*
      * Better PHPUnit
      */
-    
     {
         "key": "cmd+k cmd+r",
         "command": "better-phpunit.run"
     },
-
     /**
      * Activity Bar
      **/
@@ -353,9 +317,248 @@
         "key": "cmd+k cmd+g",
         "command": "workbench.view.extension.gitlens"
     },
-
+    {
+        "key": "cmd+k cmd+a",
+        "command": "workbench.view.extension.atlascode-drawer"
+    },
     {
         "key": "F1",
         "command": "-workbench.action.showCommands"
     },
+    /**
+     * Debugger
+     **/
+    {
+        "key": "cmd+k cmd+-",
+        "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+    },
+    {
+        "key": "cmd+k cmd+t",
+        "command": "-workbench.action.selectTheme"
+    },
+    /**
+     * Code Coverage
+     **/
+    {
+        "key": "cmd+k cmd+h",
+        "command": "vscode-coverage-highlighter.toggle"
+    },
+    /**
+     * Emmet
+     **/
+    // {
+    //     "key": "cmd+m cmd+i",
+    //     "command": "editor.emmet.action.balanceIn",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+o",
+    //     "command": "editor.emmet.action.balanceOut",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+w",
+    //     "command": "editor.emmet.action.wrapWithAbbreviation",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+m",
+    //     "command": "editor.emmet.action.matchTag",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+e",
+    //     "command": "editor.action.smartSelect.expand",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+r",
+    //     "command": "editor.emmet.action.updateTag",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+m cmd+backspace",
+    //     "command": "editor.emmet.action.removeTag",
+    //     "when": "editorTextFocus"
+    // },
+    /**
+     * Multi-cursor
+     **/
+    {
+        "key": "cmd+backspace",
+        "command": "editor.action.moveSelectionToPreviousFindMatch",
+        "when": "editorFocus && editorHasMultipleSelections"
+    },
+    {
+        "key": "cmd+K cmd+d",
+        "command": "editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus && editorHasMultipleSelections"
+    },
+    {
+        "key": "cmd+right",
+        "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorFocus && editorHasSelection"
+    },
+    /**
+     * Terminal panels
+     **/
+    {
+        "key": "alt+cmd+right",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    /**
+     * Toggle Font Size
+     **/
+    {
+        "key": "cmd+k cmd+t",
+        "command": "toggle",
+        "when": "editorTextFocus",
+        "args": {
+            "id": "fontSize",
+            "value": [
+                {
+                    "editor.fontSize": 20,
+                    "editor.lineHeight": 45
+                },
+                {
+                    "editor.fontSize": 18,
+                    "editor.lineHeight": 0
+                }
+            ]
+        }
+    },
+    {
+        "key": "cmd+k cmd+y",
+        "command": "toggle",
+        "when": "editorTextFocus",
+        "args": {
+            "id": "fontSize",
+            "value": [
+                {
+                    "better-phpunit.phpunitBinary": "DYNAMODB_USE_MOCK=false ./vendor/bin/phpunit",
+                    "better-phpunit.commandSuffix": "--stop-on-error --stop-on-failure --group dynamodb",
+                },
+                {
+                    "better-phpunit.phpunitBinary": "./vendor/bin/phpunit",
+                    "better-phpunit.commandSuffix": "--stop-on-error --stop-on-failure",
+                }
+            ]
+        }
+    },
+    /**
+     * File Explorer
+     **/
+    {
+        "key": "cmd+d",
+        "command": "duplicate.execute",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "shift+cmd+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    /**
+     * Split Panels
+     **/
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.joinAllGroups",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.splitEditor",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "workbench.action.increaseViewSize",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "workbench.action.decreaseViewSize",
+        "when": "editorFocus"
+    },
+    /**
+     * Terminal Split Panel
+     **/
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    /**
+     * Better Jest
+     **/
+    {
+        "key": "cmd+k cmd+r",
+        "command": "better-jest.run",
+        "when": "editorLangId == javascript || editorLangId == typescript",
+    },
+    {
+        "key": "cmd+k cmd+;",
+        "command": "better-jest.run-file",
+        "when": "editorLangId == javascript || editorLangId == typescript",
+    },
+    {
+        "key": "cmd+k cmd+p",
+        "command": "better-jest.run-previous",
+        "when": "editorLangId == javascript || editorLangId == typescript",
+    }
+    /**
+      * Better PHPUnit
+      **/
+    {
+        "key": "cmd+k cmd+r",
+        "command": "better-phpunit.run",
+        "when": "editorLangId == php",
+    },
+    {
+        "key": "cmd+k cmd+;",
+        "command": "better-phpunit.run-file",
+        "when": "editorLangId == php",
+    },
+    {
+        "key": "cmd+k cmd+p",
+        "command": "better-phpunit.run-previous",
+        "when": "editorLangId == php",
+    }
 ]
